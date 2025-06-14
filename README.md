@@ -1,10 +1,8 @@
 # Portfolio Website (v3)
 
-[Visit the third version of my portfolio website](https://v3.dulapahv.dev/)
+[Visit Version 3 of my portfolio website](https://v3.dulapahv.dev/)
 
-**Note: This version will not receive further updates.**
-
-This version was created using Next.js, Tailwind CSS, HeroUI, and daisyUI.
+**Note:** This version will not receive further updates.
 
 ---
 
@@ -12,4 +10,4 @@ This version was created using Next.js, Tailwind CSS, HeroUI, and daisyUI.
 
 [Visit my latest portfolio website](https://dulapahv.dev)
 
-For the latest updates and repository, check out [GitHub](https://github.com/dulapahv/dulapahv-portfolio).
+For the latest updates and source code, check out the [GitHub](https://github.com/dulapahv/dulapahv-portfolio).

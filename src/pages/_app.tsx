@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { ThemeProvider } from 'next-themes';
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import Link from 'next/link';
 import { AppProps } from 'next/app';
 import { Open_Sans } from 'next/font/google';
 import Head from 'next/head';
@@ -98,7 +99,22 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <div className={`${open_sans.className}`}>
         <ThemeProvider>
-          <div className="flex min-h-screen flex-col bg-WHITE dark:bg-BLACK">
+          <div className="fixed z-[9999] w-full bg-black p-4 text-center font-medium text-white">
+            <p className="text-sm">
+              This is an older version of the portfolio. For the latest version,
+              visit{' '}
+              <Link
+                href="https://dulapahv.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#fb568a] hover:underline"
+              >
+                dulapahv.dev
+              </Link>
+              .
+            </p>
+          </div>
+          <div className="pt-16 flex min-h-screen flex-col bg-WHITE dark:bg-BLACK">
             <div className="flex-grow">
               <Component {...pageProps} />
               {/* <SpeedInsights /> */}
