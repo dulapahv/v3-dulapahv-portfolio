@@ -4,7 +4,7 @@
 
 **Note: This version will not receive further updates.**
 
-This version was created using Next.js, Tailwind CSS, HeroUI, and TypeScript.
+This version was created using Next.js, Tailwind CSS, and HeroUI.
 
 ---
 
