@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.14.0",
     "@heroui/react": "^2.7.10",
     "@marsidev/react-turnstile": "^0.5.4",
-    "@sentry/nextjs": "^7.120.3",
+    "@sentry/nextjs": "^9.29.0",
     "@types/node": "^20.19.0",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
